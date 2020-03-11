@@ -1,0 +1,21 @@
+main {
+    text-align: center
+}
+
+.louie {
+    padding: 10px;
+    border: 10px;
+}
+
+@media screen and (max-width: 576px) {
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+    .biglou {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
