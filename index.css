@@ -7,9 +7,10 @@ body {
     text-align: center;
 }
 
+
 @media screen and (max-width: 576px) { 
     h1 {
-        font-size-adjust;
+        font-size: 2em;
     }
     .lead {
         font-size: 90%;
