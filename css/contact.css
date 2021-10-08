@@ -1,3 +1,9 @@
+body {
+    background-image: url(/Portfolio/Images/coding\ background\ dark.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    color:white;
+}
 .card {
     display: block;
     margin-left: 25%;

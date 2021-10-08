@@ -1,10 +1,17 @@
 body {
     font-size: 18px;
-  line-height: 27px;
+    line-height: 27px;
+    background-image: url(/Portfolio/Images/coding\ background\ dark.jpg);
+    background-size: contain;
+    background-repeat: round;
 }
 
 .jumbotron {
     text-align: center;
+    color: white;
+    text-shadow: whitesmoke;
+    font-size: em;
+    background:transparent
 }
 
 
@@ -13,6 +20,6 @@ body {
         font-size: 2em;
     }
     .lead {
-        font-size: 90%;
+        font-size: 100%;
     }
  }

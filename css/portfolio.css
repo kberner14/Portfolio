@@ -1,11 +1,21 @@
 main {
     text-align: center;
     padding: 5%;
+    color: white;
+}
+
+body {
+    background-image: url(/Portfolio/Images/coding\ background\ dark.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 #projects-jumbotron{
-    background-color:rgb(68, 68, 255);
-    color:rgb(221, 220, 215);
+    background-color:rgb(159, 138, 251);
+    color:rgb(255, 255, 255);
+    font-size-adjust: inherit;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .louie {
