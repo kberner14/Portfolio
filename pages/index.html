@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--critical to link the necessary style sheets to your html code otherwise none of this would work-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <!--linking the css style sheet for other necessary cosmetic changes-->
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <!--critical to link the necessary style sheets to your html code otherwise none of this would work-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--linking the css style sheet for other necessary cosmetic changes-->
+    <link rel="stylesheet" type="text/css" href="/Portfolio/css/index.css">
 
     <title>About Me</title>
 
@@ -14,28 +16,31 @@
 
 <body>
 
-        <header> <!--placed the navbar in the header-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Kyle Berner</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <header>
+        <!--placed the navbar in the header-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Kyle Berner</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Direction
-                    </a>
-                    <!--drop down list. Working on functioning links. These only currently work on my computer-->
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="index.html">About Me</a>
-            <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-            <a class="dropdown-item" href="contact.html">Contact</a>
-                </div>
-                </li>
-              </ul>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Pages
+                        </a>
+                        <!--drop down list. Working on functioning links. These only currently work on my computer-->
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="index.html">About Me</a>
+                            <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+                            <a class="dropdown-item" href="contact.html">Contact</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-          </nav>
+        </nav>
     </header>
 
     <main>
@@ -46,18 +51,20 @@
                     <!--Jumbotron will be main display for now. Want to spruce this up a bit in the future.-->
                     <div class="jumbotron">
                         <h1 class="display-4">About Me</h1>
-                        <p class="lead">Welcome! My name is Kyle Berner and I'm a full stack web designer,  avid soccer player, and San Diego Native. <br>
-                        You can find me riding my bike along the Pacific Beach boardwalk, surfing near Scripps Pier, or walking a variety of dogs around the picturesque scene of Fiesta Island Dog Park</p>
+                        <p class="lead">Welcome! My name is Kyle Berner and I'm a full stack web designer, avid soccer
+                            player, and San Diego Native. <br>
+                            You can find me riding my bike along the Pacific Beach boardwalk, surfing near Scripps Pier,
+                            or walking a variety of dogs around the picturesque scene of Fiesta Island Dog Park</p>
                         <hr class="my-4">
                         <!--Need to have the picture resize itself for smaller displays-->
-                        <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/26231680_10155558045253411_1415181419625483108_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_ohc=Ol6Xp5TQunQAX-a_WPV&_nc_ht=scontent-lax3-1.xx&oh=a66ff529daa1d89cd285d64264cdadb7&oe=5E8D9296" alt="My Face" style="max-width:90%;height:auto;">
-                      </div>
+                        <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/26231680_10155558045253411_1415181419625483108_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_ohc=Ol6Xp5TQunQAX-a_WPV&_nc_ht=scontent-lax3-1.xx&oh=a66ff529daa1d89cd285d64264cdadb7&oe=5E8D9296"
+                            alt="My Face" style="max-width:90%;height:auto;">
+                    </div>
                 </div>
                 <div class="col-2"></div>
             </div>
         </div>
     </main>
-    
 
 
 
@@ -66,8 +73,16 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
