@@ -1,8 +1,7 @@
 body {
-    background-image: url(/Portfolio/Images/coding\ background\ dark.jpg);
     background-size:cover;
     background-repeat:no-repeat;
-    color:white;
+    color:rgb(57, 61, 71);
 }
 .card {
     display: block;
@@ -13,10 +12,12 @@ body {
     padding-left:40%;
 }
 #contact-title{
-    padding-left: 5rem;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    align-items: center;
 }
 #contact-list {
-    margin-left: 20%;
+    margin-left: 16%;
     margin-right: 20%;
     border: 3px;
     padding: 10px;

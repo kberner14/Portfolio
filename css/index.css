@@ -1,15 +1,14 @@
 body {
     font-size: 18px;
     line-height: 27px;
-    background-image: url(/Portfolio/Images/coding\ background\ dark.jpg);
     background-size: contain;
     background-repeat: round;
 }
 
 .jumbotron {
     text-align: center;
-    color: white;
-    text-shadow: whitesmoke;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(204, 204, 204);
     font-size: em;
     background:transparent
 }
