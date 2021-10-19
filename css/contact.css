@@ -1,7 +1,7 @@
 body {
-    background-size:cover;
-    background-repeat:no-repeat;
-    color:rgb(57, 61, 71);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:inherit;
+    justify-content: center;
 }
 .card {
     display: block;
