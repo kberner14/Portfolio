@@ -19,6 +19,7 @@ body {
     padding-right: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
+    border-radius:1em;
 }
 
 .col-4 {
@@ -27,6 +28,14 @@ body {
     font-size: calc(.5em + .5vw);
     padding: .5vw;
     border: .5vw;
+    border-radius:1em;
+}
+
+h1{
+    font-size:calc(2.5vw + 1em);
+}
+h4{
+    font-size:calc(.5vw + 1em);
 }
 /* 
 @media screen and (max-width: 576px) {
