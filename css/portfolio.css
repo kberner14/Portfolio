@@ -1,9 +1,7 @@
-main {
+#biglou {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display:flex;
     justify-content: center;
-    font-size: 1.125em;
-    line-height: 1.6;
+    line-height: 1.4;
     text-align: center;
     padding: 5%;
     color: rgb(65, 67, 75);
@@ -11,21 +9,24 @@ main {
 
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display:inherit;
     justify-content: center;
 }
 
 #projects-jumbotron{
     background-color:rgb(57, 61, 71);
     color:rgb(255, 255, 255);
-    font-size-adjust: inherit;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
-.louie {
-    padding: 7px;
-    border: 7px;
+.col-4 {
+    background-color:rgb(57, 61, 71);
+    color:rgb(255, 255, 255);
+    font-size: calc(.5em + .5vw);
+    padding: .5vw;
+    border: .5vw;
 }
 /* 
 @media screen and (max-width: 576px) {

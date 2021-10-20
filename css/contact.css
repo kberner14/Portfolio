@@ -1,24 +1,22 @@
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display:inherit;
+}
+
+h1{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.list-item-group {
+    padding-top:1vw;
+    padding-left: 1.5vw;
+    padding-bottom:1vw;
+    padding-right:1.5vw;
     justify-content: center;
 }
-.card {
-    display: block;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-#container-sm{
-    padding-left:40%;
-}
-#contact-title{
-    padding-top: 5%;
-    padding-bottom: 3%;
-    align-items: center;
-}
-#contact-list {
-    margin-left: 16%;
-    margin-right: 20%;
-    border: 3px;
-    padding: 10px;
+
+.main {
+    text-align: center;
+    background-color:rgb(45, 49, 54);
+    color:rgb(255, 255, 255);
 }
