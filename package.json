@@ -1,12 +1,19 @@
 {
-  "name": "skinny-portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Project Description",
+  "description": "basic html portfolio",
+  "main": "pages/landing.html",
   "scripts": {
-    "start": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "serve": "^10.0.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kberner14/Portfolio.git"
   },
-  "author": "Kyle Berner"
+  "author": "Kyle Berner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kberner14/Portfolio/issues"
+  },
+  "homepage": "https://github.com/kberner14/Portfolio#readme"
 }
