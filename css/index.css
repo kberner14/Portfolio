@@ -7,7 +7,7 @@ body {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   display:inherit;
   justify-content: center;
-  background-image: url(/Portfolio/Images/coding-laptop-min.jpg);
+  background-image: url(../Images/coding-laptop-min.jpg);
   background-size:cover;
   background-repeat:no-repeat;
   color:white;
