@@ -5,10 +5,10 @@ body {
     justify-content: center;
 }
 
-header {
-    text-align: center;
-    width: 100%;
-}
+#navbar {
+    min-width: 100%;
+    position:sticky;
+  }
 
 .container{
     margin-top: 1vw;
