@@ -1,15 +1,19 @@
-#biglou {
+main {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     justify-content: center;
-    line-height: 1.4;
+    /* line-height: 1.4; */
     text-align: center;
     padding: 5%;
     color: rgb(65, 67, 75);
 }
 
+#navbar {
+    min-width: 100%;
+}
+
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    justify-content: center;
+    justify-content: inherit;
 }
 
 #projects-jumbotron{
@@ -36,6 +40,11 @@ h1{
 }
 h4{
     font-size:calc(.5vw + 1em);
+}
+
+.navbar-brand,
+#navbarDropdownMenuLink {
+    font-size:calc(1rem + 1.5vw);
 }
 /* 
 @media screen and (max-width: 576px) {

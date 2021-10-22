@@ -1,3 +1,7 @@
+body,
+html {
+  min-height:100%;
+}
 
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -5,13 +9,20 @@ body {
     justify-content: center;
 }
 
-#navbar {
+header {
+    text-align: center;
     min-width: 100%;
-    position:sticky;
-  }
+}
 
 .container{
-    margin-top: 1vw;
+    padding-top: 1vw;
+    align-items: center;
+}
+
+#title-row{
+    margin-left: inherit;
+    margin-right: inherit;
+
 }
 
 .jumbotron {

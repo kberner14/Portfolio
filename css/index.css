@@ -15,12 +15,11 @@ body {
 
 #navbar {
   min-width: 100%;
-  position:sticky;
 }
 
 #name_title {
   padding-top: 10%;
-  font-size: 40px;
+  font-size: calc(1em + 1.5vw);
   padding-bottom: 10%;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
